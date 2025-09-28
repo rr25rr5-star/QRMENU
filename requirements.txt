@@ -1,11 +1,8 @@
-# ------ ASGI ------
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 qrcode[pil]==7.4.2
 aiofiles==23.1.0
-# ------ Telegram ------
-aiogram==3.1.1
+aiogram==2.25.1
 aiohttp==3.8.6
-# ------ Pydantic ------
-pydantic==2.3.0
+pydantic==1.10.4
