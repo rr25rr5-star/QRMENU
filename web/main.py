@@ -4,6 +4,7 @@ from fastapi.staticfiles import StaticFiles
 import uuid, os, asyncio
 from bot.config import ORDER_CHANNEL
 from run import bot
+from bot.config import BOT
 
 app = FastAPI()
 os.makedirs("web/static", exist_ok=True)

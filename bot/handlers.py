@@ -1,11 +1,10 @@
-from aiogram import Bot, Dispatcher, types
-from aiogram.dispatcher.filters import CommandStart
-from bot.config import BOT_TOKEN, ADMIN_ID
+from aiogram import Router, F
+from aiogram.types import Message
+from aiogram.filters import CommandStart
 from bot.keyboards import main_menu
 
-bot = Bot(token=BOT_TOKEN)
-dp = Dispatcher(bot)
+router = Router()
 
-@dp.message_handler(CommandStart())
-async def start(m: types.Message):
+@router.message(CommandStart())
+async def start(m: Message):
     await m.answer("Assalomu alaykum!", reply_markup=main_menu())
