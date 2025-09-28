@@ -1,9 +1,11 @@
-# mos yozuv
+# Python 3.11 uchun 100% wheel bor
 aiogram==3.1.1
 aiohttp==3.8.6
-fastapi==0.103.2          # <-- 0.104.1 emas
+fastapi==0.103.2
 uvicorn[standard]==0.24.0
 qrcode[pil]==7.4.2
 python-multipart==0.0.6
 aiofiles==23.1.0
-typing-extensions==4.7.1  # <-- ikkalasiga ham to‘g‘ri keladi
+# pydantic-core wheel bor
+pydantic==2.3.0
+pydantic-core==2.6.3
