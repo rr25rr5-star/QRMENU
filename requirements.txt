@@ -1,11 +1,14 @@
-# wheel bor versiyalar
+# ---------- ASGI ----------
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+qrcode[pil]==7.4.2
+aiofiles==23.2.0
+
+# ---------- Telegram ----------
 aiogram==3.1.1
 aiohttp==3.8.6
-fastapi==0.103.2
-uvicorn[standard]==0.24.0
-qrcode[pil]==7.4.2
-python-multipart==0.0.6
-aiofiles==23.1.0
-# wheel bor pydantic
-pydantic==2.4.0
-pydantic-core==2.10.0
+
+# ---------- Pydantic 3.13 uchun WHEEL bor ----------
+pydantic==2.5.0
+pydantic-core==2.14.1
